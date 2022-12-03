@@ -3,7 +3,7 @@ from random import shuffle
 
 
 def bubble_sort():
-    list_items = [item for item in range(1000)]
+    list_items = [item for item in range(10000)]
     shuffle(list_items)
     print(f"The random_start_list: \n{list_items}.")
 
