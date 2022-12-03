@@ -1,12 +1,7 @@
 import datetime
-from random import shuffle
 
 
-def bubble_sort():
-    list_items = [item for item in range(1000)]
-    shuffle(list_items)
-    print(f"The random_start_list: \n{list_items}.")
-
+def bubble_sort(list_items):
     start_time = datetime.datetime.now()
 
     last_index = len(list_items) - 1
@@ -22,11 +17,8 @@ def bubble_sort():
 
     total_time = datetime.datetime.now() - start_time
 
-    print(f"New sorting list: \n{list_items}")
-    print(f"Total executing time: {total_time}.")
-
     return list_items
 
 
 if __name__ == "__main__":
-    bubble_sort()
+    print(bubble_sort([4, 2, 3, 1]))
