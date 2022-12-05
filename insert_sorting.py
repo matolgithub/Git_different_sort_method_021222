@@ -28,7 +28,7 @@ def insert_sort_func():
                     break
 
     print(new_sorting_list)
-    # 10000 - 1,77 sec - like choice sorting, 20000 - 6,85sec some quickest aither choice sorting!
+    # 10000 - 1,77 sec - like choice sorting, 20000 - 6,85sec some quickest than choice sorting!
     print(datetime.datetime.now() - start)
 
 
