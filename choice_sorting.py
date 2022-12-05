@@ -9,7 +9,7 @@ def choice_sort_func():
     опять п.1. И так, пока нач индекс не станет равным последнему индексу списка.
     """
     # формируем рандомный список
-    list_for_choice_sorting = [item for item in range(10000)]
+    list_for_choice_sorting = [item for item in range(20000)]
     shuffle(list_for_choice_sorting)
     print(list_for_choice_sorting)
 
@@ -33,6 +33,7 @@ def choice_sort_func():
 
     print(list_for_choice_sorting)
     print(f"Total time: {datetime.datetime.now() - start}. It is 6 times quickest then bubble sorting method!")
+    # 10000 - 1,78sec, 20000 - 7,32sec.
 
     return list_for_choice_sorting
 
